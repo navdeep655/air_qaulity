@@ -13,8 +13,8 @@ from sklearn.preprocessing import StandardScaler
 import numpy as np
 
 # ---------------------- API KEYS ----------------------
-WEATHER_KEY = "7a6bdc6503b6effb94f5273c5017bb79"
-AQICN_TOKEN = "57e81cc987e25ab67e2b3593f686565695476486"
+WEATHER_KEY = "APIKEy"
+AQICN_TOKEN = "APIKEy"
 CSV_PATH = Path("city_day.csv")
 FEATURES = ["PM2.5", "PM10", "NO2", "SO2", "CO", "O3", "NH3"]
 TARGET = "AQI_Bucket"
